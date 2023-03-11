@@ -28,14 +28,13 @@
 }
 
 .form-group {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  width: 50%;
+  width: 60%;
   font-weight: 100;
   color: white;
-  padding-top: 50px;
+  padding: 5vh;
   border: navajowhite;
   background-color: #00000080;
 }
@@ -59,8 +58,7 @@
   padding: 10px;
   padding-left: 45%;
   padding-right: 45%;
-  margin-top: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 20%;
 }
 
 .spacing {
@@ -80,14 +78,22 @@
 
 .comments {
   gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #dropdown {
-  width: 115%;
+  width: 98%;
   padding: 5px;
 }
 
 #choice {
-  width: 115%;
+  width: 98%;
   padding: 5px;
+}
+
+#comment-area {
+  width: 95%;
+  height: 20vh;
 }
