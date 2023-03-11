@@ -8,12 +8,12 @@
   background-size: cover;
   background-position: center;
   height: 200vh;
-  padding: 10px;
+  padding-top: 10px;
 }
 
 .heading h1 {
   text-align: center;
-  color : white;
+  color: white;
   padding-top: 40px;
   padding-bottom: 12px;
   font-size: 30px;
@@ -35,7 +35,7 @@
   width: 50%;
   font-weight: 100;
   color: white;
-  padding: 200px, 5%, 5%, 5%;
+  padding-top: 50px;
   border: navajowhite;
   background-color: #00000080;
 }
@@ -60,6 +60,7 @@
   padding-left: 45%;
   padding-right: 45%;
   margin-top: 15px;
+  margin-bottom: 50px;
 }
 
 .spacing {
@@ -69,7 +70,7 @@
 
 .box {
   margin-top: 4px;
-  margin-bottom: 12px; 
+  margin-bottom: 12px;
 }
 
 .options {
